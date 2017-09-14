@@ -9,8 +9,8 @@ const app = express();
  * Server!
   *************************************/
 
-const port = 8081;
-const server = app.listen(port, () => {
+const port = 8080;
+const server = app.listen(port, '0.0.0.0', () => {
   console.log('server online');
 });
 
