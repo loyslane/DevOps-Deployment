@@ -24,5 +24,5 @@ app.get('/', (request, response) => {
 
 app.get('/version', (request, response) => {
   response.send('1.0.0');
-}
+});
 
