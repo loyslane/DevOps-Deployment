@@ -1,6 +1,6 @@
 FROM node:5.4
-COPY package.json /src/package.json
-WORKDIR /src
+COPY package.json /package.json
+WORKDIR /
 RUN npm install
-COPY server.js /src
-CMD ["node", "src/server.js"]
+COPY server.js /
+CMD ["node", "/server.js"]
